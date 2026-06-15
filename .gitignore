@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+
+# Conda
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights & checkpoints
+*.keras
+*.h5
+*.ckpt
+checkpoint/
+
+# Generated plots & data
+*.png
+*.csv
+*.npy
+*.npz
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+
+# macOS
+.DS_Store
