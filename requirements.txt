@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scipy
+tensorflow
+keras
+torch
+jupyter
+notebook

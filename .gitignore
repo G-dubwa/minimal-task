@@ -4,7 +4,9 @@ __pycache__/
 *.pyo
 
 # Virtual environments
+.env
 .venv/
+venv/
 env/
 
 # Conda
@@ -13,21 +15,23 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Model weights & checkpoints
+# Model weights and checkpoints
 *.keras
 *.h5
 *.ckpt
 checkpoint/
 
-# Generated plots & data
-*.png
-*.csv
+# Temporary or local scratch outputs
+tmp/
+scratch/
+*.log
+
+# NumPy binary arrays can become large and are usually regenerated.
 *.npy
 *.npz
 
-# LaTeX
+# LaTeX auxiliaries
 *.aux
-*.log
 *.out
 *.toc
 *.bbl
@@ -35,7 +39,6 @@ checkpoint/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-*.pdf
 
 # macOS
 .DS_Store
